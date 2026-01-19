@@ -3,7 +3,7 @@
   "displayName": "Instagram Insights Viewer",
   "description": "A secure, client-side tool to analyze Instagram followers and identify users who do not follow back. Features a modern glassmorphism UI and ZIP export support.",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

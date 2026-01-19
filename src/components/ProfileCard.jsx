@@ -27,7 +27,7 @@ const ProfileCard = ({ profile, index }) => {
             transition={{ duration: 0.3, delay: index * 0.05 }}
             className="glass-card p-4 flex flex-col items-center gap-4 group"
         >
-            <div className="relative w-24 h-24 rounded-full p-1 bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600">
+            <div className="relative w-24 h-24 rounded-full p-1 bg-linear-to-tr from-yellow-400 via-red-500 to-purple-600">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 border-2 border-slate-900">
                     {imageError ? (
                         <div className="w-full h-full flex items-center justify-center bg-slate-800 text-slate-500 text-2xl font-bold uppercase">

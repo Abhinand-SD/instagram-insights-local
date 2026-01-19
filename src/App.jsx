@@ -105,7 +105,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="flex-grow px-4 py-8 max-w-6xl mx-auto w-full">
+      <main className="grow px-4 py-8 max-w-6xl mx-auto w-full">
         <AnimatePresence mode="wait">
           {!data ? (
             <motion.div
@@ -117,7 +117,7 @@ function App() {
               className="flex flex-col items-center justify-center min-h-[70vh]"
             >
               <div className="text-center mb-10">
-                <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-r from-purple-400 via-pink-500 to-red-500">
                   Instagram Insights
                 </h1>
                 <p className="text-slate-400 text-lg max-w-2xl mx-auto px-4">
